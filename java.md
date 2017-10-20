@@ -39,7 +39,7 @@ class Car {
 ```
 
 Lines 1-4 are the attributes of the class, i.e. the properties of the class. Lines 5 to 10 consists of the
-constructor of the class, which does what it sounds like it does: constructs the class. Notice that the
+constructor of the class, and does what you would expect it to: constructs the class. Notice that the
 constructor does not have a return type: The thing that the constructor returns is an instance of the
 class.
 
