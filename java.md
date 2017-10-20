@@ -92,10 +92,10 @@ The difference of the three is:
 You _extend_ classes and abstract classes and you _implements_ interfaces. So, for example, if you have ClassA, AbstractClassA,
 and InterfaceA, the syntax to extend the first two and implement the interface is:
 
-    * ``` class SomeClass extends ClassA ```
-    * ``` class SomeClass extends AbstractClassA ```
-    * ``` class SomeClass implements InterfaceA ```
-    * ``` class SomeClass extends ClassA implements InterfaceA ```
+    * class SomeClass extends ClassA
+    * class SomeClass extends AbstractClassA
+    * class SomeClass implements InterfaceA
+    * class SomeClass extends ClassA implements InterfaceA
 
 Note that you can only extend to a single class BUT you can implement as many interfaces as you want. The logic
 behind this is that if you are extending multiple classes and there is a method with the same method signature
