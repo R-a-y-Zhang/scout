@@ -47,7 +47,7 @@ The methods are the functions that come after the constructor (the order does no
 methods beginning with _set_ are _setters_ and those with _get_ are _getters_ and they do what you would
 assume they do: the set and get attributes.
 
-Public, Protected, Private
+### Public, Protected, Private
 Why do you need getters and setters? One of the philosophies of OOP is to expose only just enough so that
 the user can do what needs to be done. For example, you do not need to know how much fuel to inject into
 the engine to go a particular speed in order to go forward. You also do not need to know the engine model
@@ -84,18 +84,18 @@ abstract classes, and interfaces. There is also something called a _final_ class
 but nothing can inherit from it because it's too cool.
 
 The difference of the three is:
-    * A normal class must have all methods defined and can have attributes.
-    * An abstract class can have some methods defined and some left up to be implemented by the extending class
+    A normal class must have all methods defined and can have attributes.
+    An abstract class can have some methods defined and some left up to be implemented by the extending class
         (defined with a function signature). Can have attributes.
-    * An interface does not have any methods defined (so everything is a method signature) and cannot have any attributes.
+    An interface does not have any methods defined (so everything is a method signature) and cannot have any attributes.
 
 You _extend_ classes and abstract classes and you _implements_ interfaces. So, for example, if you have ClassA, AbstractClassA,
 and InterfaceA, the syntax to extend the first two and implement the interface is:
 
-    * class SomeClass extends ClassA
-    * class SomeClass extends AbstractClassA
-    * class SomeClass implements InterfaceA
-    * class SomeClass extends ClassA implements InterfaceA
+    class SomeClass extends ClassA
+    class SomeClass extends AbstractClassA
+    class SomeClass implements InterfaceA
+    class SomeClass extends ClassA implements InterfaceA
 
 Note that you can only extend to a single class BUT you can implement as many interfaces as you want. The logic
 behind this is that if you are extending multiple classes and there is a method with the same method signature
