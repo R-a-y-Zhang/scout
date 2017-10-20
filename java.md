@@ -9,12 +9,14 @@ class Car {
     String year;
     String make, model;
     String color;
+    int numberOfCars;
     int doorCount;
     public Car(String year, String make, String model, String color) {
         this.year = year;
         this.make = make;
         this.model = model;
         this.doorCount = doorCount;
+        numberOfCars += 1;
     }
 
     public void setYear(String year) {
@@ -28,7 +30,8 @@ class Car {
     public void setModel(String model) {
         this.model = model;
     }
-
+    
+    public static int getNumberOfCars() { return numberOfCars; }
     public String getYear() { return this.year; }
     public String getMake() { return this.make; }
     public String getModel() { reeturn this.model; }
@@ -66,7 +69,9 @@ Oftentimes, you will see a keyword or method that is _static_. This means that t
 or attribute is shared across all instances. For _static_ methods and attributes, you do not need to have
 an instance of the class in order to access it but can just do ```<ClassName>.<static-name>```. Also, all
 instance methods can preference both static and non-static methods and attributes, but static methods can
-only access static methods and attributes.
+only access static methods and attributes. In our Car class, the numberOfCars attribute is static as it
+keeps track of the number of instances of Car we made, and we can get it through the static method
+_getNumberOfCars_.
 
 ## Superclasses, Interfaces, Inheritence, and Polymorphism
 This is where this shit gets fun. Something very powerful is the ability for classes to inherit from other classes.
