@@ -3,7 +3,7 @@
 This will give a very basic overview of what is Git and how to use it. This will cover common
 tasks when using git. However git is extremely complex so feel free to delve deeper.
 
-## The Stupid Content Tracker
+## git - the stupid content tracker
 Git is a VCS, or **V**ersion **C**ontrol **S**ystem, and is widely used by nearly every single
 organization to maintain and keep track of their codebases. It was developed in Apr. 2005 by
 Linus Torvalds after the developers of the Linux Kernel moved away from BitKeeper since the
