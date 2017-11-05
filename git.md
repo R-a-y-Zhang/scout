@@ -17,7 +17,7 @@ Last but not least, it enables extremely fast compression and decompression of c
 delta compression and multithreading.
 
 ## Basic Git Codebase Structure
-A git repo is called a **repository**, and one can think of a repository as a tree. Like an actual
+A git project is called a **repository**, and one can think of a repository as a tree. Like an actual
 tree, like _Quercus rubra_,  not a data structures tree. A repository is split into branches and
 one of those branches, called the **trunk**, contains code, or at least should contain code, that
 is officially recognized to be part of the codebase. This code should be proven to be relatively bug
