@@ -1,7 +1,7 @@
 # Scratching the Surface of Git
 ## Description
-This will give a very basic overview of what is Git and how to use it. Will cover common
-tasks when using git but git is extremely complex so feel free to delve deeper.
+This will give a very basic overview of what is Git and how to use it. This will cover common
+tasks when using git. However git is extremely complex so feel free to delve deeper.
 
 ## The Stupid Content Tracker
 Git is a VCS, or **V**ersion **C**ontrol **S**ystem, and is widely used by nearly every single
@@ -63,7 +63,7 @@ if after a few new commits you find yourself not happy with them. To commit what
 staged, you would run ```git commit -m <short-commit-message> -m <long-commit-message>```.
 The short commit message is a very short description of what you did like "Fix feature X",
 "Remove X", etc. The long commit message you can go into a more in-depth overview into
-what you did. Proper etiquette is to include both. **COMMIT OFTEN!**. Also, standard
+what you did. Proper etiquette is to include both. **COMMIT OFTEN!** Also, standard
 practice is to use present, imperative tense in your commit messages.
 
 After you commit, it is time to **push** your code to the remove host repo. To do this,
@@ -84,7 +84,7 @@ and also being able to keep track of all those changes, git allows for one to **
 This is key to any VCS. When you branch, you essentially peel off from you current branch
 and any commits you do will be to the new branch that you created instead of the old branch.
 Let us say that you are making a feature and you want to branch off the master branch. You
-would first go or **checkout** to the master branch by executing ```git checkout master``` and
+would first go to or **checkout** to the master branch by executing ```git checkout master``` and
 then would execute ```git pull origin master``` to get the latest changes to master. If you
 want to checkout to a branch that the remote repository has but you do not (you can find this
 out by executing ```git branch``` and it will tell you all branches that are recognized by
