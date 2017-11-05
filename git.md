@@ -1,7 +1,9 @@
 # Scratching the Surface of Git
 ## Description
 This will give a very basic overview of what is Git and how to use it. This will cover common
-tasks when using git. However git is extremely complex so feel free to delve deeper.
+tasks that one needs to perform with git. Keep in mind that git contains an extremely complex
+set of commands so please feel free to figure out things about it that I did not cover but you
+will need.
 
 ## git - the stupid content tracker
 Git is a VCS, or **V**ersion **C**ontrol **S**ystem, and is widely used by nearly every single
