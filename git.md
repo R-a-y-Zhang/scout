@@ -24,8 +24,8 @@ is officially recognized to be part of the codebase. This code should be proven 
 free, at least upon first glance, should be passing all unit tests, and should be seen by the maintainers
 as acceptable. This is usually called the _master_ branch, _main_ branch, or some other name synonymous
 with those two words (I will be, for the sake of simplicity, be using _master_ to refer to the main branch).
-In addition to the trunk are other branches called development branches, whichs
-code that people are currently worked on or things that were worked on but have been shelved temporarily.
+In addition to the trunk are other branches called development branches, which contains
+code that people are currently working on or things that were worked on but have been shelved temporarily.
 These are simply called _branches_.
 
 ## Pulling and Cloning
