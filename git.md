@@ -12,8 +12,8 @@ not we would not have git.
 
 As a VCS, git is able to keep track of every single change made to a repo, who made it, and
 what lines were changed when they made it. In addition, it allows people to work on separate
-parts of the repo completely independent of one another, allowing for parallel development.
-In addition, it enables extremely fast compression and decompression of codebases through
+parts of the project completely independent of one another, allowing for parallel development.
+Last but not least, it enables extremely fast compression and decompression of codebases through
 delta compression and multithreading.
 
 ## Basic Git Codebase Structure
